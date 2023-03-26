@@ -1,3 +1,54 @@
+/* GENERAL */
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+/* HEADER */
+.hero {
+  background-color: #333;
+
+  height: 64px;
+
+  text-align: center;
+
+  width: 100%;
+}
+
+/* MAIN */
+.content__section {
+  background-color: #FFF;
+
+  border: 1px solid #EAEAEA;
+
+  margin: 30px auto 0;
+
+  width: 640px;
+}
+
+.content__img {
+  width: 100%;
+}
+
+.content__title {
+  color: #AA4653;
+
+  font-size: 48px;
+
+  font-weight: bold;
+
+  margin: 30px;
+}
+
+.content__subtitle {
+  color: #000;
+
+  margin: 0 30px 30px;
+}
+
+.content__section:last-child {
+  margin-bottom: 120px;
 }
